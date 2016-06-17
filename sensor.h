@@ -1,5 +1,4 @@
-#ifndef SENSOR_H
-#define SENSOR_H
+#pragma once
 
 //#include "commons.h"
 #include <QObject>
@@ -35,5 +34,3 @@ signals:
 
 public slots:
 };
-
-#endif // SENSOR_H

@@ -13,15 +13,17 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-    sensor.cpp \
     controller.cpp \
-    iSense.cpp
+    iSense.cpp \
+    connectioncontroller.cpp \
+    mainmodel.cpp
 
 HEADERS  += \
-    sensor.h \
     controller.h \
     commons.h \
-    iSense.h
+    iSense.h \
+    connectioncontroller.h \
+    mainmodel.h
 
 FORMS    += \
     iSense.ui

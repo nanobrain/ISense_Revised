@@ -49,14 +49,6 @@
     <addaction name="actionExit"/>
     <addaction name="separator"/>
    </widget>
-   <widget class="QMenu" name="menuSensor">
-    <property name="title">
-     <string>Sensor</string>
-    </property>
-    <addaction name="actionList_all_sensors"/>
-    <addaction name="separator"/>
-    <addaction name="actionDisconnect_all_sensors"/>
-   </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
      <string>Help</string>
@@ -65,7 +57,6 @@
     <addaction name="actionAbout_QT"/>
    </widget>
    <addaction name="menuFile"/>
-   <addaction name="menuSensor"/>
    <addaction name="menuHelp"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
@@ -81,34 +72,11 @@
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
-   <addaction name="actionDisconnect_all_sensors"/>
-   <addaction name="actionList_all_sensors"/>
    <addaction name="separator"/>
-   <addaction name="actionAdd_table"/>
    <addaction name="separator"/>
-   <addaction name="actionOpen_database"/>
-   <addaction name="actionSave_database"/>
    <addaction name="separator"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="actionList_all_sensors">
-   <property name="icon">
-    <iconset resource="icons.qrc">
-     <normaloff>:/Icons/Icons/TableSensors.png</normaloff>:/Icons/Icons/TableSensors.png</iconset>
-   </property>
-   <property name="text">
-    <string>List all sensors</string>
-   </property>
-  </action>
-  <action name="actionDisconnect_all_sensors">
-   <property name="icon">
-    <iconset resource="icons.qrc">
-     <normaloff>:/Icons/Icons/Delete.png</normaloff>:/Icons/Icons/Delete.png</iconset>
-   </property>
-   <property name="text">
-    <string>Disconnect all sensors</string>
-   </property>
-  </action>
   <action name="actionExit">
    <property name="icon">
     <iconset resource="icons.qrc">
@@ -126,36 +94,6 @@
   <action name="actionAbout_QT">
    <property name="text">
     <string>About QT</string>
-   </property>
-  </action>
-  <action name="actionOpen_database">
-   <property name="icon">
-    <iconset resource="icons.qrc">
-     <normaloff>:/Icons/Icons/Open.png</normaloff>:/Icons/Icons/Open.png</iconset>
-   </property>
-   <property name="text">
-    <string>Open database</string>
-   </property>
-  </action>
-  <action name="actionSave_database">
-   <property name="icon">
-    <iconset resource="icons.qrc">
-     <normaloff>:/Icons/Icons/Save.png</normaloff>:/Icons/Icons/Save.png</iconset>
-   </property>
-   <property name="text">
-    <string>Save database</string>
-   </property>
-  </action>
-  <action name="actionAdd_table">
-   <property name="icon">
-    <iconset resource="icons.qrc">
-     <normaloff>:/Icons/Icons/TableResults.png</normaloff>:/Icons/Icons/TableResults.png</iconset>
-   </property>
-   <property name="text">
-    <string>Add table</string>
-   </property>
-   <property name="toolTip">
-    <string>Add table and select sensors to show in it</string>
    </property>
   </action>
  </widget>
