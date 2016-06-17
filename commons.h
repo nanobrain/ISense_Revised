@@ -1,5 +1,4 @@
-#ifndef COMMONS_H
-#define COMMONS_H
+#pragma once
 // QT includes
 #include <QDebug>
 // Private includes
@@ -11,5 +10,3 @@
 #define SPLASH_SCREEN 1
 // Private macros
 #define METHOD_NOT_IMPLEMENTED qWarning() << __PRETTY_FUNCTION__<<" Not implemented yet";
-
-#endif // COMMONS_H
